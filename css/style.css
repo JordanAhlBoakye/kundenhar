@@ -11,15 +11,23 @@
 
 header{
     grid-area: hd;
+    background-color:#3498db;
 }
 
 main{
     grid-area: mn;
+    background-color:#3498db;
 }
 
 section{
     grid-area: sc;
+    background-color:#3498db;
 }
 nav{
-    
+    background-color:#3498db;
+}
+footer{
+    grid-area: ft;
+    background-color:#3498db;
+
 }
