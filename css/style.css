@@ -1,0 +1,25 @@
+#container {
+    display:grid;
+
+    grid-template-areas:
+    'hd hd hd hd hd hd'
+    'sc sc sc sc sc sc'
+    'mn mn mn mn mn mn'
+    'mn mn mn mn mn mn'
+    'sc sc sc sc sc sc'
+}
+
+header{
+    grid-area: hd;
+}
+
+main{
+    grid-area: mn;
+}
+
+section{
+    grid-area: sc;
+}
+nav{
+    
+}
