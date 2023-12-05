@@ -1,33 +1,36 @@
 #container {
     display:grid;
-
+    height: 100vh;
     grid-template-areas:
     'hd hd hd hd hd hd'
     'sc sc sc sc sc sc'
     'mn mn mn mn mn mn'
     'mn mn mn mn mn mn'
-    'sc sc sc sc sc sc'
+    'ft ft ft ft ft ft'
 }
 
 header{
     grid-area: hd;
-    background-color:#3498db;
-}
-
-main{
-    grid-area: mn;
-    background-color:#3498db;
+    background-color:#0b283c;
 }
 
 section{
     grid-area: sc;
+    background-color:#34db5e;
+}
+
+main {
+    grid-area: mn;
     background-color:#3498db;
 }
-nav{
-    background-color:#3498db;
-}
-footer{
+
+footer {
     grid-area: ft;
     background-color:#3498db;
+}
+
+section2{
+    grid-area: sk;
+    background-color:#0f68a4;
 
 }
