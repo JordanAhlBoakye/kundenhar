@@ -21,10 +21,20 @@ header{
     background-color:#3498db;
     height: 15vh;
     width:100%;
+    display: flex;
+}
+
+.headerbox{
+    justify-content:space-between;
+}
+nav{
+    height:15vh;
+    margin: 5vw;
+    padding: ;
 }
 .navbox{
-    display: flex; flex-direction: row;
-    justify-content: flex-end;
+    display: flex; justify-content: end; 
+    flex-direction: row; flex-wrap: wrap;
     
 }
 section{
