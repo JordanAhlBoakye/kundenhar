@@ -6,31 +6,48 @@
     'sc sc sc sc sc sc'
     'mn mn mn mn mn mn'
     'mn mn mn mn mn mn'
-    'ft ft ft ft ft ft'
+    'ft ft ft ft ft ft';
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    column-gap:1vh ;
+    row-gap:1vh ;
+    background-color:#ffffff;
 }
 
 header{
     grid-area: hd;
-    background-color:#0b283c;
+    background-color:#3498db;
+    height: 15vh;
+    width:100%;
 }
 
 section{
     grid-area: sc;
-    background-color:#34db5e;
+    background-color:#3498db;
+    height: 28vh;
+    width:100% ;
 }
 
 main {
     grid-area: mn;
     background-color:#3498db;
+    height: 38vh;
+    width:100% ;
 }
 
-footer {
+section2 {
     grid-area: ft;
-    background-color:#db9534;
+    background-color:#3498db;
+    height: 15vh;
+    width:100% ;
 }
 
-section2{
+section2 > footer{
     grid-area: sk;
-    background-color:#0f68a4;
+    background-color:#3498db;
+    width: 96%;
+    height: 10vh;
 
 }
