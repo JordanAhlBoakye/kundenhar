@@ -22,7 +22,11 @@ header{
     height: 15vh;
     width:100%;
 }
-
+.navbox{
+    display: flex; flex-direction: row;
+    justify-content: flex-end;
+    
+}
 section{
     grid-area: sc;
     background-color:#3498db;
