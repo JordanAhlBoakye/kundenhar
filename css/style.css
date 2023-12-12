@@ -31,27 +31,51 @@ header{
     justify-content:space-between;
 }
 nav{
-    height:15vh;
+    max-height: fit-content;
     margin: 5vw;
-    padding: ;
+    padding:5px  ; 
+    display: flex;
+    max-width: 50%;
+    
 }
 .navbox{
-    display: flex; justify-content: end; 
+    display: flex; justify-content: start; 
     flex-direction: row; flex-wrap: wrap;
     
 }
 section{
     grid-area: sc;
     background-color:#3498db;
-    height: 28vh;
+    height: 26vh;
     width:100% ;
 }
 
 main {
     grid-area: mn;
     background-color:#3498db;
-    height: 38vh;
+    height: 55vh;
     width:100%;
+}
+
+.mainbox{display: flex; flex-direction: row; flex-wrap: wrap; order: 2; flex: 2;
+
+}
+
+main>section3{height: fit-content;
+    max-width: 50%;
+    display: flex; 
+    flex:1; 
+    order: 2;
+    
+}
+main>section3{
+    
+}
+.section3box{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
 }
 
 footer{
