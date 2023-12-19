@@ -103,3 +103,15 @@ footer{
     width: 96%;
     height: 10vh;
 }
+
+.omosscontainer{
+    grid-template-areas: 
+    'one two the four'
+    'one two the four'
+    'five six seven eight'
+    'five six seven eight';
+}
+
+img {
+
+}
