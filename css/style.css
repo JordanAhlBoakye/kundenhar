@@ -1,6 +1,6 @@
 #container {
     display:grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-areas:
     'hd hd hd hd hd hd'
     'sc sc sc sc sc sc'
@@ -15,7 +15,7 @@
     padding-left: 2vw;
     column-gap:1vh ;
     row-gap:1vh ;
-    background-color:#ffffff;
+    background-color:#1D3342;
     
 }
 
@@ -33,7 +33,7 @@ header{
 nav{
     max-height: fit-content;
     margin: 5vw;
-    padding:5px  ; 
+    padding:5px; 
     display: flex;
     max-width: 50%;
     
@@ -67,10 +67,22 @@ main>section3{height: fit-content;
     flex:1; 
     order: 2;
     
+    
 }
 main>section3{
     
 }
+
+.droneimg{
+    max-height: 20vh;
+    max-width: 20vw;
+}
+
+.deliverybotimg{
+    max-height: 20vh;
+    max-width: 20vw;
+}
+
 .section3box{
     display: flex;
     flex-wrap: wrap;
