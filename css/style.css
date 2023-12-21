@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Genos:ital,wght@1,300&family=Noto+Sans:ital,wght@0,100;0,300;1,100&family=Sofia+Sans+Semi+Condensed:ital,wght@0,200;1,100;1,300;1,400&family=Ysabeau+Infant&family=Ysabeau+Office:wght@100;200;300&family=Ysabeau:wght@400;500&display=swap');
+
 #container {
     display:grid;
     min-height: 100vh;
@@ -25,22 +27,27 @@ header{
     max-height: 15vh;
     width:100%;
     display: flex;
+    font-family:  ;
 }
 
 .headerbox{
     justify-content:space-between;
+    align-items: center;
 }
-nav{
+.nav{
     max-height: fit-content;
     margin: 5vw;
     padding:5px; 
     display: flex;
     max-width: 50%;
+    display: flex; 
+    justify-content: start; 
+    flex-direction: row;
     
 }
+
 .navbox{
-    display: flex; justify-content: start; 
-    flex-direction: row; flex-wrap: wrap;
+    
     
 }
 .indexsection{
@@ -108,6 +115,7 @@ footer{
     color: white;
     background-color: #1D3342;
 }
+
 #omosscontainer{
     display: grid;
     display: flex;
@@ -122,8 +130,6 @@ footer{
     row-gap: 1vh;
     flex-direction: row;
 }
-
-
 
 .one {
     background-color: #3498db;
