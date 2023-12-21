@@ -16,7 +16,7 @@
     column-gap:1vh ;
     row-gap:1vh ;
     background-color:#1D3342;
-    
+
 }
 
 header{
@@ -43,7 +43,7 @@ nav{
     flex-direction: row; flex-wrap: wrap;
     
 }
-section{
+.indexsection{
     grid-area: sc;
     background-color:#3498db;
     height: 26vh;
@@ -104,14 +104,49 @@ footer{
     height: 10vh;
 }
 
-.omosscontainer{
+#omosscontainer{
+    display: grid;
+
     grid-template-areas: 
-    'one two the four'
-    'one two the four'
-    'five six seven eight'
+    'hd hd hd hd'
+    'one two three four'
+    'img1 img2 img3 img4'
     'five six seven eight';
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    row-gap: 1vh;
 }
 
-img {
+.omossbody {
+    color: white;
+    background-color: #1D3342;
+}
 
+.one {
+    background-color: #3498db;
+}
+
+.two {
+    background-color: #3498db;
+}
+.three {
+    background-color: #3498db;
+}
+.four {
+    background-color: #3498db;
+}
+.five {
+    background-color: #3498db;
+}
+.six {
+    background-color: #3498db;
+}
+.seven {
+    background-color: #3498db;
+}
+.eight {
+    background-color: #3498db;
+}
+.img{
+    
 }
