@@ -130,7 +130,6 @@ footer{
     row-gap: 1vh;
     flex-direction: row;
 }
-
 .one {
     background-color: #3498db;
     max-width: 20vw;
