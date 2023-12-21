@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Genos:ital,wght@1,300&family=Noto+Sans:ital,wght@0,100;0,300;1,100&family=Sofia+Sans+Semi+Condensed:ital,wght@0,200;1,100;1,300;1,400&family=Ysabeau+Infant&family=Ysabeau+Office:wght@100;200;300&family=Ysabeau:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100&display=swap');
 #container {
     display:grid;
     min-height: 100vh;
@@ -13,13 +14,11 @@
     
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2vw;
-    padding-left: 2vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
     column-gap:1vh ;
     row-gap:1vh ;
-    background-color:#1D3342;
-
-}
+    background-color:#1D3342;}
 
 header{
     grid-area: hd;
@@ -27,7 +26,7 @@ header{
     max-height: 15vh;
     width:100%;
     display: flex;
-    font-family:  ;
+    font-family: rokkitt;
 }
 
 .headerbox{
@@ -43,18 +42,27 @@ header{
     display: flex; 
     justify-content: start; 
     flex-direction: row;
-    
+    color: #E0A653;
 }
 
 .navbox{
-    
-    
+    color: #ffffff;
+}
+
+.a{
+    color: #ffffff;
+}
+
+.indexbody{
+    color: white;
+    background-color: #1D3342;
 }
 .indexsection{
     grid-area: sc;
     background-color:#3498db;
     height: 26vh;
     width:100% ;
+    font-family:ysabeau office;
 }
 
 main {
@@ -62,19 +70,27 @@ main {
     background-color:#3498db;
     height: 55vh;
     width:100%;
+    font-family:ysabeau office;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: ;
 }
 
 .mainbox{display: flex; flex-direction: row; flex-wrap: wrap; order: 2; flex: 2;
 
 }
 
-main>section3{height: fit-content;
+main>section3
+{max-height:50vh;
     max-width: 50%;
     display: flex; 
     flex:1; 
     order: 2;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column; 
     
-    
+    align-items: end;
 }
 main>section3{
     
@@ -83,6 +99,8 @@ main>section3{
 .droneimg{
     max-height: 20vh;
     max-width: 20vw;
+    display: flex;
+   
 }
 
 .deliverybotimg{
@@ -102,6 +120,7 @@ footer{
     background-color:#3498db;
     height: 15vh;
     width:100% ;
+    font-family:ysabeau office;
 }
 
   footer > section2{
@@ -109,6 +128,7 @@ footer{
     background-color:#3498db;
     width: 96%;
     height: 10vh;
+    
 }
 
 .omossbody {
@@ -129,46 +149,124 @@ footer{
     grid-template-rows: 25% 25% 25% 25%;
     row-gap: 1vh;
     flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 150vh;
+    min-width: 100vh;
+    justify-content: space-evenly;
+    padding-bottom: 6vh;
+    margin-bottom: 6vh;
+    text-align: start;
+    text-align: justify 1;
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
+
 .one {
     background-color: #3498db;
     max-width: 20vw;
     grid-area:one;
+    font-family: ysabeau office;
+    border-radius: 2vw;
+    max-height: 60vh;
+    
+    
+}
+.one>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
+    
 }
 
 .two {
     background-color: #3498db;
     max-width: 20vw;
     grid-area:two;
+    font-family: ysabeau office;
+    border-radius: 2vw;  
 }
+.two>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
+}
+
 .three {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: three;
+    font-family: ysabeau office;
+    border-radius:2vw;    
 }
+.three>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
+}
+
 .four {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: four;
+    font-family: ysabeau office;
+    border-radius: 2vw;
 }
+.four>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
+}
+
 .five {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: five;
+    font-family:ysabeau office;
+    border-radius: 2vw;
 }
+.five>img {
+    max-height: 20vh;
+    max-width: 15vw;
+    height:20vh
+    
+}
+
 .six {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: six;
+    font-family: ysabeau office;
+    border-radius: 2vw;
 }
+.six>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
+}
+
 .seven {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: seven;
+    font-family: ysabeau office;
+    border-radius: 2vw;
+}
+.seven>img {
+    max-height: 20vh;
+    max-width: 15vw;
+    height:20vh
 }
 
 .eight {
     background-color: #3498db;
     max-width: 20vw;
     grid-area: eight;
+    font-family: ysabeau office;
+    border-radius: 2vw;
+}
+.eight>img {
+    max-height: 20vh;
+    width: 15vw;
+    height:20vh
 }
