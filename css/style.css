@@ -65,22 +65,22 @@ header{
     font-family:ysabeau office;
 }
 
-main {
+.indexmain {
     grid-area: mn;
     background-color:#3498db;
-    height: 55vh;
+    max-height: 55vh;
     width:100%;
     font-family:ysabeau office;
     flex-wrap: wrap;
     align-items: center;
-    align-content: ;
+    align-content:end;
 }
 
 .mainbox{display: flex; flex-direction: row; flex-wrap: wrap; order: 2; flex: 2;
 
 }
 
-main>section3
+.indexmain>section3
 {max-height:50vh;
     max-width: 50%;
     display: flex; 
@@ -92,7 +92,7 @@ main>section3
     
     align-items: end;
 }
-main>section3{
+.indexmain>section3{
     
 }
 
@@ -115,7 +115,7 @@ main>section3{
     justify-content: center;
 }
 
-footer{
+.indexfooter{
     grid-area: ft;
     background-color:#3498db;
     height: 15vh;
@@ -123,7 +123,7 @@ footer{
     font-family:ysabeau office;
 }
 
-  footer > section2{
+.indexfooter > section2{
     grid-area: sk;
     background-color:#3498db;
     width: 96%;
@@ -269,4 +269,96 @@ footer{
     max-height: 20vh;
     width: 15vw;
     height:20vh
+}
+
+.thirdbody{
+    color: white;
+    background-color: #1D3342;
+}
+#thirdcontainer{
+    margin-right:auto;
+    margin-left: auto;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    column-gap:1vh ;
+    row-gap:1vh ;
+    background-color:#1D3342;
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'thirdmain thirdmain third2section thirdaside'
+    'thirdmain thirdmain third2section thirdaside'
+    'thirdfooter thirdfooter third2sectionlow thirdasidelow';
+    min-height: 120vh;
+    min-width: 100vh;
+}
+
+.thirdmain{
+    grid-area: thirdmain;
+    background-color: #1D3342;
+    max-height: 90vh;
+    max-width: 60vw;
+    width: 60vw;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: ysabeau office;
+}
+.thirdmain>.third1section{
+    
+
+}
+
+
+.third1section>.nextyearimg{
+    max-width: 60vw;
+    height: 80vh;
+    max-height: 80vh;
+}
+
+.third2section{
+    grid-area: third2section;
+    background-color: #3498db;
+    max-width: 25vw;
+    width: 12vw;
+    max-height: 90vh;
+    height: 90vh;
+    font-family: ysabeau office;
+}
+.colorfulimg{
+    max-width:12vw;
+    height: 90vh;
+}
+.thirdaside{
+    grid-area: thirdaside;
+    background-color: #3498db;
+    max-width: 25vw;
+    width: 23vw;
+    max-height: 90vh;
+    height: 90vh;
+    font-family: ysabeau office;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.thirdfooter{
+    grid-area: thirdfooter;
+    background-color: #3498db;
+    max-height: 15vh;
+    height: 15vh;
+    font-family: ysabeau office;
+}
+.third2sectionlow{
+    grid-area: third2sectionlow;
+    background-color: #3498db;
+    max-height: 15vh;
+    height: 15vh;
+    font-family: ysabeau office;
+}
+.thirdasidelow{
+    grid-area: thirdasidelow;
+    background-color: #3498db;
+    max-height: 15vh;
+    height: 15vh;
+    font-family: ysabeau office;
 }
