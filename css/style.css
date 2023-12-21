@@ -104,9 +104,14 @@ footer{
     height: 10vh;
 }
 
+.omossbody {
+    color: white;
+    background-color: #1D3342;
+}
 #omosscontainer{
     display: grid;
-
+    display: flex;
+    flex-wrap: wrap;
     grid-template-areas: 
     'hd hd hd hd'
     'one two three four'
@@ -115,38 +120,50 @@ footer{
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
     row-gap: 1vh;
+    flex-direction: row;
 }
 
-.omossbody {
-    color: white;
-    background-color: #1D3342;
-}
+
 
 .one {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area:one;
 }
 
 .two {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area:two;
 }
 .three {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area: three;
 }
 .four {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area: four;
 }
 .five {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area: five;
 }
 .six {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area: six;
 }
 .seven {
     background-color: #3498db;
+    max-width: 20vw;
+    grid-area: seven;
 }
+
 .eight {
     background-color: #3498db;
-}
-.img{
-    
+    max-width: 20vw;
+    grid-area: eight;
 }
