@@ -2,396 +2,338 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100&display=swap');
 #container {
-    display:grid;
-    min-height: 100vh;
-    max-width: 100vw;
-    grid-template-areas:
-    'hd hd hd hd hd hd'
-    'sc sc sc sc sc sc'
-    'mn mn mn mn mn mn'
-    'mn mn mn mn mn mn'
-
-    'ft ft ft ft ft ft';
-    
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    column-gap:1vh ;
-    row-gap:1vh ;
-    background-color:#1D3342;}
-
-header{
-    grid-area: hd;
-    background-color:#3498db;
-    max-height: 15vh;
-    width:100%;
-    display: flex;
-    font-family: rokkitt;
-}
-
-.headerbox{
-    justify-content:space-between;
-    align-items: center;
-}
-.nav{
-    max-height: fit-content;
-    margin: 5vw;
-    padding:5px; 
-    display: flex;
-    max-width: 50%;
-    display: flex; 
-    justify-content: start; 
-    flex-direction: row;
-    color: #E0A653;
-}
-
-.navbox{
-    color: #000000;
-}
-
-.a{
-    color: #000000;
-}
-
-.indexbody{
-    color: rgb(0, 0, 0);
-    background-color: #1D3342;
-}
-.indexsection{
-    grid-area: sc;
-    background-color:#3498db;
-    height: 26vh;
-    width:100% ;
-    font-family:ysabeau office;
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.indexmain {
-    grid-area: mn;
-    background-color:#3498db;
-    max-height: 55vh;
-    width:100%;
-    font-family:ysabeau office;
+    display : grid;
+    min-height : 100vh;
+    max-width : 100vw;
+    grid-template-areas : 'hd hd hd hd hd hd' 'sc sc sc sc sc sc' 'mn mn mn mn mn mn' 'mn mn mn mn mn mn' 'ft ft ft ft ft ft';
+    margin-right : auto;
+    margin-left : auto;
+    padding-right : 1vw;
+    padding-left : 1vw;
+    column-gap : 1vh;
+    row-gap : 1vh;
+    background-color : #1D3342;
+    }
+    header {
+    grid-area : hd;
+    background-color : #3498db;
+    max-height : 15vh;
+    width : 100%;
+    display : flex;
+    font-family : rokkitt;
+    }
+    .headerbox {
+    justify-content : space-between;
+    align-items : center;
+    }
+    .nav {
+    max-height : fit-content;
+    margin : 5vw;
+    padding : 5px;
+    display : flex;
+    max-width : 50%;
+    display : flex;
+    justify-content : start;
+    flex-direction : row;
+    color : #E0A653;
+    }
+    .navbox {
+    color : #000000;
+    }
+    .a {
+    color : #000000;
+    }
+    .indexbody {
+    color : rgb(0, 0, 0);
+    background-color : #1D3342;
+    }
+    .indexsection {
+    grid-area : sc;
+    background-color : #3498db;
+    height : 26vh;
+    width : 100%;
+    font-family : "ysabeau office";
+    display : flex;
+    justify-content : end;
+    flex-direction : row;
+    justify-content : space-between;
     flex-wrap: wrap;
-    align-items: center;
-    align-content:end;
-    
-}
-
-.mainbox{display: flex; flex-direction: row; flex-wrap: wrap; order: 2; flex: 2;
-
-}
-
-.indexmain>section3
-{max-height:50vh;
-    max-width: 50%;
-    display: flex; 
-    flex:1; 
-    order: 2;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.indexmain>section3{
-    
-}
-
-.droneimg{
-    max-height: 20vh;
-    max-width: 20vw;
-    display: flex;
-   filter:saturate(6);
-   filter: brightness(-2);
-   filter:hue-rotate(2);
-   filter:contrast(-1);
-}
-
-.deliverybotimg{
-    max-height: 20vh;
-    max-width: 20vw;
-    filter:saturate(3);
-   filter: brightness(-2);
-   filter:hue-rotate(2);
-   filter:contrast(-);
-}
-
-.section3box{
-    display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    justify-content: center;
-}
-
-.indexfooter{
-    grid-area: ft;
-    background-color:#3498db;
-    height: 26vh;
-    width:100% ;
-    font-family:ysabeau office;
-    display: flex;
-    justify-content: end;
-}
-
-.torsoimg{
-    max-height: 26vh;;;
-    max-width: 100vw;
-    width: 50vw;
-    display: flex;
-    
-}
-.legsimg{
-    max-height:26vh;
-    max-width: 100vw;
-    width: 50vw;
-    
-}
-
-
-
-.omossbody {
-    color: rgb(0, 0, 0);
-    background-color: #1D3342;
-}
-
-#omosscontainer{
-    display: grid;
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-areas: 
-    'hd hd hd hd'
-    'one two three four'
-    'img1 img2 img3 img4'
-    'five six seven eight';
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    row-gap: 1vh;
-    flex-direction: row;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 150vh;
-    min-width: 100vh;
-    justify-content: space-evenly;
-    padding-bottom: 6vh;
-    margin-bottom: 6vh;
-    text-align: start;
-    text-align: justify 1;
-    padding-right: 1vw;
-    padding-left: 1vw;
-}
-
-.one {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area:one;
-    font-family: ysabeau office;
-    border-radius: 2vw;
-    max-height: 60vh;
-    
-    
-}
-.one>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh
-    
-}
-
-.two {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area:two;
-    font-family: ysabeau office;
-    border-radius: 2vw;  
-}
-.two>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh
-}
-
-.three {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: three;
-    font-family: ysabeau office;
-    border-radius:2vw;    
-}
-.three>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh
-}
-
-.four {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: four;
-    font-family: ysabeau office;
-    border-radius: 2vw;
-}
-.four>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh
-}
-
-.five {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: five;
-    font-family:ysabeau office;
-    border-radius: 2vw;
-}
-.five>img {
-    max-height: 20vh;
-    max-width: 15vw;
-    height:20vh
-    
-}
-
-.six {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: six;
-    font-family: ysabeau office;
-    border-radius: 2vw;
-}
-.six>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh
-}
-
-.seven {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: seven;
-    font-family: ysabeau office;
-    border-radius: 2vw;
-}
-.seven>img {
-    max-height: 20vh;
-    max-width: 15vw;
-    height:20vh
-}
-
-.eight {
-    background-color: #3498db;
-    max-width: 20vw;
-    grid-area: eight;
-    font-family: ysabeau office;
-    border-radius: 2vw;
-}
-.eight>img {
-    max-height: 20vh;
-    width: 15vw;
-    height:20vh¨ 
-}
-
-
-.thirdbody{
-    color: rgb(0, 0, 0);
-    background-color: #1D3342;
-}
-#thirdcontainer{
-    margin-right:auto;
-    margin-left: auto;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    column-gap:1vh ;
-    row-gap:1vh ;
-    background-color:#1D3342;
-    display: grid;
-    grid-template-areas: 
-    'hd hd hd hd'
-    'thirdmain thirdmain third2section thirdaside'
-    'thirdmain thirdmain third2section thirdaside'
-    'thirdfooter thirdfooter third2sectionlow thirdasidelow';
-    min-height: 120vh;
-    min-width: 100vh;
-}
-
-.thirdmain{
-    grid-area: thirdmain;
-    background-color: #1D3342;
-    max-height: 90vh;
-    max-width: 60vw;
-    width: 60vw;
-    height: 90vh; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: ysabeau office;
-    color: white;
-}
-.thirdmain>.third1section{
-    
-
-}
-
-
-.third1section>.nextyearimg{
-    max-width: 60vw;
-    height: 80vh;
-    max-height: 80vh;
-    filter: saturate(3);
-    filter: contrast(2);
-    filter: hue-rotate(6);
-}
-
-.third2section{
-    grid-area: third2section;
-    background-color: #3498db;
-    max-width: 25vw;
-    width: 12vw;
-    max-height: 90vh;
-    height: 90vh;
-    font-family: ysabeau office;
-}
-.colorfulimg{
-    max-width:12vw;
-    height: 90vh;
-    filter:saturate(2)
-}
-.thirdaside{
-    grid-area: thirdaside;
-    background-color: #3498db;
-    max-width: 25vw;
-    width: 23vw;
-    max-height: 90vh;
-    height: 90vh;
-    font-family: ysabeau office;
-    display: flex;
-    flex-wrap:wrap ;
-    color: #000000;
-}
-.thirdfooter{
-    grid-area: thirdfooter;
-    background-color: #3498db;
-    max-height: 15vh;
-    height: 15vh;
-    font-family: ysabeau office;
-}
-.third2sectionlow{
-    grid-area: third2sectionlow;
-    background-color: #3498db;
-    max-height: 15vh;
-    height: 15vh;
-    font-family: ysabeau office;
-}
-.thirdasidelow{
-    grid-area: thirdasidelow;
-    background-color: #3498db;
-    max-height: 15vh;
-    height: 15vh;
-    font-family: ysabeau office;
-}
+    }
+    .indexmain {
+    grid-area : mn;
+    background-color : #3498db;
+    max-height : 55vh;
+    width : 100%;
+    font-family : "ysabeau office";
+    flex-wrap : wrap;
+    align-items : center;
+    align-content : end;
+    }
+    .mainbox {
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    order : 2;
+    flex : 2;
+    }
+    .indexmain > section3 {
+    max-height : 50vh;
+    max-width : 50%;
+    display : flex;
+    flex : 1;
+    order : 2;
+    justify-content : space-evenly;
+    flex-wrap : wrap;
+    flex-direction : column;
+    display : flex;
+    justify-content : end;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    }
+    .droneimg {
+    max-height : 20vh;
+    max-width : 20vw;
+    display : flex;
+    filter : saturate(6);
+    filter : brightness(1);
+    filter : contrast(1);
+    }
+    .deliverybotimg {
+    max-height : 20vh;
+    max-width : 20vw;
+    filter : saturate(3);
+    filter : brightness(1);
+    filter : contrast(1);
+    }
+    .section3box {
+    display : flex;
+    flex-wrap : wrap;
+    align-self : center;
+    justify-content : center;
+    }
+    .indexfooter {
+    grid-area : ft;
+    background-color : #3498db;
+    height : 26vh;
+    width : 100%;
+    font-family : "ysabeau office";
+    display : flex;
+    justify-content : end;
+    }
+    .torsoimg {
+    max-height : 26vh;
+    max-width : 100vw;
+    width : 50vw;
+    display : flex;
+    }
+    .legsimg {
+    max-height : 26vh;
+    max-width : 100vw;
+    width : 50vw;
+    }
+    .omossbody {
+    color : rgb(0, 0, 0);
+    background-color : #1D3342;
+    }
+    #omosscontainer {
+    display : grid;
+    display : flex;
+    flex-wrap : wrap;
+    grid-template-areas : 'hd hd hd hd' 'one two three four' 'img1 img2 img3 img4' 'five six seven eight';
+    grid-template-columns : 25% 25% 25% 25%;
+    grid-template-rows : 25% 25% 25% 25%;
+    row-gap : 1vh;
+    flex-direction : row;
+    margin-right : auto;
+    margin-left : auto;
+    min-height : 150vh;
+    min-width : 100vh;
+    justify-content : space-evenly;
+    padding-bottom : 6vh;
+    margin-bottom : 6vh;
+    text-align : start;
+    padding-right : 1vw;
+    padding-left : 1vw;
+    }
+    .one {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : one;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    max-height : 60vh;
+    }
+    .one > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .two {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : two;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .two > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .three {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : three;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .three > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .four {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : four;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .four > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .five {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : five;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .five > img {
+    max-height : 20vh;
+    max-width : 15vw;
+    height : 20vh;
+    }
+    .six {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : six;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .six > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .seven {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : seven;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .seven > img {
+    max-height : 20vh;
+    max-width : 15vw;
+    height : 20vh;
+    }
+    .eight {
+    background-color : #3498db;
+    max-width : 20vw;
+    grid-area : eight;
+    font-family : "ysabeau office";
+    border-radius : 2vw;
+    }
+    .eight > img {
+    max-height : 20vh;
+    width : 15vw;
+    height : 20vh;
+    }
+    .thirdbody {
+    color : rgb(0, 0, 0);
+    background-color : #1D3342;
+    }
+    #thirdcontainer {
+    margin-right : auto;
+    margin-left : auto;
+    padding-right : 1vw;
+    padding-left : 1vw;
+    column-gap : 1vh;
+    row-gap : 1vh;
+    background-color : #1D3342;
+    display : grid;
+    grid-template-areas : 'hd hd hd hd' 'thirdmain thirdmain third2section thirdaside' 'thirdmain thirdmain third2section thirdaside' 'thirdfooter thirdfooter third2sectionlow thirdasidelow';
+    min-height : 120vh;
+    min-width : 100vh;
+    }
+    .thirdmain {
+    grid-area : thirdmain;
+    background-color : #1D3342;
+    max-height : 90vh;
+    max-width : 60vw;
+    width : 60vw;
+    height : 90vh;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    font-family : "ysabeau office";
+    color : white;
+    }
+    .third1section > .nextyearimg {
+    max-width : 60vw;
+    height : 80vh;
+    max-height : 80vh;
+    filter : saturate(3);
+    filter : contrast(2);
+    }
+    .third2section {
+    grid-area : third2section;
+    background-color : #3498db;
+    max-width : 25vw;
+    width : 12vw;
+    max-height : 90vh;
+    height : 90vh;
+    font-family : "ysabeau office";
+    }
+    .colorfulimg {
+    max-width : 12vw;
+    height : 90vh;
+    filter : saturate(2);
+    }
+    .thirdaside {
+    grid-area : thirdaside;
+    background-color : #3498db;
+    max-width : 25vw;
+    width : 23vw;
+    max-height : 90vh;
+    height : 90vh;
+    font-family : "ysabeau office";
+    display : flex;
+    flex-wrap : wrap;
+    color : #000000;
+    }
+    .thirdfooter {
+    grid-area : thirdfooter;
+    background-color : #3498db;
+    max-height : 15vh;
+    height : 15vh;
+    font-family : "ysabeau office";
+    }
+    .third2sectionlow {
+    grid-area : third2sectionlow;
+    background-color : #3498db;
+    max-height : 15vh;
+    height : 15vh;
+    font-family : "ysabeau office";
+    }
+    .thirdasidelow {
+    grid-area : thirdasidelow;
+    background-color : #3498db;
+    max-height : 15vh;
+    height : 15vh;
+    font-family : "ysabeau office";
+    }
